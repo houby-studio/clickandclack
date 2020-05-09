@@ -1,0 +1,22 @@
+{
+  "params": {
+    "include": [
+      "spa",
+      "electron"
+    ],
+    "icon": "build/icon.png",
+    "quality": 12,
+    "themeColor": "C10015"
+  },
+  "assets": [
+    {
+      "generator": "png",
+      "name": "Square{size}x{size}Logo.png",
+      "folder": ".",
+      "sizes": [
+        71,
+        150
+      ]
+    }
+  ]
+}
