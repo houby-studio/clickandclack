@@ -192,7 +192,8 @@
 </template>
 
 <script>
-import robot from 'robotjs'
+// import robot from 'robotjs'
+const robot = require('electron').remote.require('robotjs')
 import { sync } from 'vuex-pathify'
 const { globalShortcut } = require('electron').remote
 

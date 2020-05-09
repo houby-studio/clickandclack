@@ -82,9 +82,15 @@ module.exports = function (/* ctx */) {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /node_modules/,
           options: {
             formatter: require('eslint').CLIEngine.getFormatter('stylish')
+          }
+        })
+        cfg.module.rules.push({ // Fix for webpack not resolving path for native modules
+          test: /\.node$/,
+          loader: 'node-addon-loader',
+          options: {
+            basePath: __dirname
           }
         })
       }

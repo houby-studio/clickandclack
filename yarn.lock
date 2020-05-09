@@ -6988,6 +6988,13 @@ node-abi@^2.11.0, node-abi@^2.13.0, node-abi@^2.7.0:
   dependencies:
     semver "^5.4.1"
 
+node-addon-loader@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/node-addon-loader/-/node-addon-loader-0.0.6.tgz#251bab507be3186ec0ced54bf39e43537fdc1fd3"
+  integrity sha512-1qfu2CuHBdqPMmNb/q913madmxZg2A9MHt0bcRfWQQrpqQ9NptOBrXO4wrW4DrpofnsCoIbZf5QI1gYTZ02XwQ==
+  dependencies:
+    loader-utils "^1.1.0"
+
 node-forge@0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.9.0.tgz#d624050edbb44874adca12bb9a52ec63cb782579"

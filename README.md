@@ -1,11 +1,63 @@
-# Click and Clack (clickandclack)
+<img src="Square150x150Logo.png" alt="Application logo" align="right" />
 
-Super simple application for clicking mouse button and clacking key button in defined intervals.
+# Click and Clack
 
-## About application
+> Super simple application for clicking mouse button and clacking key button in defined intervals.
 
-Download, install, launch and start clicking and clacking!
-Simple interface for simple job. Application can be controlled even when not visible via shortcut.
+
+## How to get
+
+- [Download](https://github.com/houby-studio/clickandclack/releases/latest)
+- Install with one click
+- Launch
+- Enjoy clicking and clacking!
+
+> Currently only Windows installer is available.
+
+## How to use
+
+### Main window
+
+allows you to set:
+
+- How often mouse clicks, in seconds
+- What key does program clack
+- How often keyboard clacks, in seconds
+
+<img src="main-window.png" alt="Main application window"/>
+
+From main window, you can click on:
+- mouse icon, which opens mouse settings
+- keyboard icon, which opens special keys
+
+From window toolbar, you can click on:
+- settings icon, which opens application settings
+- minimize and exit icons
+
+### Mouse settings
+
+allows you to set:
+- Whether mouse clicks with **left** or right button
+- Whether mouse makes **single click** or double click
+
+<img src="mouse-settings.png" alt="Mouse settings window"/>
+
+### Keyboard settings
+
+allows you to set:
+- special key to press
+
+<img src="keyboard-settings.png" alt="Keyboard settings window"/>
+
+### Application settings
+
+allows you to set:
+- Whether window is always on top or **not**
+- Whether random delay of up to 5 seconds applies on each trigger or **not**
+- Whether clicking is **enabled** or disabled
+- Whether clacking is **enabled** or disabled
+
+<img src="settings-window.png" alt="Application settings window"/>
 
 ## Developing
 
@@ -19,15 +71,13 @@ yarn
 quasar dev -m electron
 ```
 
-### Lint the files
-```bash
-yarn run lint
-```
+> If build fails due to native module [robotjs](https://robotjs.io/docs/electron), customize 'rebuild' script to run against your electron version and run `yarn rebuild` before running build
 
 ### Build the app for production
 ```bash
-quasar build
+quasar build -m electron
 ```
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+## [MIT License](LICENSE)
+
+> Brought to you by 🍄 Houby Studio
