@@ -61,7 +61,7 @@ allows you to set:
 
 ## Developing
 
-## Install the dependencies
+### Install the dependencies
 ```bash
 yarn
 ```
