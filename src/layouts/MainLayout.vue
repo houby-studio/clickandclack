@@ -106,6 +106,12 @@
   </q-layout>
 </template>
 
+<style>
+body {
+  overflow: hidden;
+}
+</style>
+
 <script>
 import { sync } from 'vuex-pathify'
 

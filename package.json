@@ -1,6 +1,6 @@
 {
   "name": "clickandclack",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Super simple application for clicking mouse button and clacking key button in defined interval.",
   "productName": "Click and Clack",
   "cordovaId": "eu.houby_studio.clickandclack",

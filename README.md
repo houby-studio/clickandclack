@@ -29,6 +29,7 @@ allows you to set:
 From main window, you can click on:
 - mouse icon, which opens mouse settings
 - keyboard icon, which opens special keys
+- clock icon, which opens timer settings
 
 From window toolbar, you can click on:
 - settings icon, which opens application settings
@@ -48,6 +49,15 @@ allows you to set:
 - special key to press
 
 <img src="keyboard-settings.png" alt="Keyboard settings window"/>
+
+### Timer settings
+
+allows you to set:
+- whether mouse and keyboard share same timer
+- whether mouse clicks first or keyboard clacks first in shared timer mode
+- delay between each action in shared timer mode
+
+<img src="timer-settings.png" alt="Timer settings window"/>
 
 ### Application settings
 
